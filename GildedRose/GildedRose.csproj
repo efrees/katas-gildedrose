@@ -34,8 +34,20 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AgedBrieDailyUpdater.cs" />
+    <Compile Include="BackstagePassDailyUpdater.cs" />
+    <Compile Include="ConjuredItemDailyUpdater.cs" />
+    <Compile Include="DailyItemUpdater.cs" />
+    <Compile Include="DailyItemUpdaterFactory.cs" />
+    <Compile Include="DefaultItemDailyUpdater.cs" />
+    <Compile Include="Strategies\DecreasingQualityStrategy.cs" />
     <Compile Include="GildedRose.cs" />
+    <Compile Include="Item.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strategies\BackstagePassQualityStrategy.cs" />
+    <Compile Include="Strategies\IncreasingQualityStrategy.cs" />
+    <Compile Include="Strategies\QualityUpdateStrategy.cs" />
+    <Compile Include="SulfurasDailyUpdater.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
